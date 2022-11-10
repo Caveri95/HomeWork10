@@ -4,6 +4,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println();
 
+
         int[] spendingOnMonth = new int[30];
         for (int i = 0; i < spendingOnMonth.length; i++) {
             spendingOnMonth[i] = ((int)(Math.random() * 100000 + 100000));
